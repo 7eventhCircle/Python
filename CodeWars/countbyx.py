@@ -1,6 +1,9 @@
 def count_by(x, n):
-    result = []  # better name than "list"
+    result = []
     for i in range(1, n + 1):
         multiple = i * x
         result.append(multiple)
-    print(result)
+    return result
+
+
+print(count_by(2, 5))
